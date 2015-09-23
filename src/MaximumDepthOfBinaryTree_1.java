@@ -15,3 +15,7 @@ public class Solution {
         return 1+Math.max(maxDepth(root.left),maxDepth(root.right));
     }
 }
+
+/*
+	DFS application solution. Max depth of a tree equals to max depth for its sub-tree plus 1 (from root)
+*/

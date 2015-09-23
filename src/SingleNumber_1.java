@@ -21,3 +21,9 @@ public class Solution {
         return single;
     }
 }
+
+/*
+	Use a Hashtable to record occurence, every time an element is seen, value to this element +1. 
+	There is only 1 element with value equals to 1.
+	PS. similar question to SingleNumberIII
+*/

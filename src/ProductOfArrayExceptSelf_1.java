@@ -16,3 +16,8 @@ public class Solution {
         return output;
     }
 }
+
+/*
+	For the first loop, start from the left end of the array, each corresponding cell stores the product from left.
+	For the second loop, start from the right end of the array, complete the result
+*/

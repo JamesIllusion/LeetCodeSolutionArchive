@@ -16,3 +16,7 @@ public class Solution {
 
     }
 }
+
+/*
+	DFS algorithm application, all left and right subtrees should be same
+*/

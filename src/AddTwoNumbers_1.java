@@ -33,3 +33,8 @@ public class Solution {
         return result_head.next;
     }
 }
+
+/*
+	Straight forward solution. Add corresponding digits from both LinkedList together. If it carries over 
+	then initialize a new Node with value of 1.
+*/

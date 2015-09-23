@@ -23,3 +23,8 @@ class MyQueue {
         return bottom.empty() && top.empty();
     }
 }
+
+/*
+	Two stacks solution. Once stack to receive input element, the other one to push out. Only when the outgoing 
+	stack is empty, will the elements from input stack pop to outgoing stack.
+*/

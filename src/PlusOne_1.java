@@ -20,3 +20,9 @@ public class Solution {
         return digits;
     }
 }
+
+/*
+	Straight forward solution. Simply add 1 at the last digit (right most element in the array). If there is 
+	carry over, then add to next digit. If there is carry over at the first digit (left most element in the array),
+	it is already '0' (10 = {1,0}) and then create a new digit in the array.
+*/

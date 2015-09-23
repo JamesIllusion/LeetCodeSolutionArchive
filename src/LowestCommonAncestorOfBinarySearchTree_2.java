@@ -9,3 +9,8 @@ public class Solution {
         }
     }
 }
+
+/*
+	DFS application solution. Since given input is Binary Search Tree, it is easy to determine to go either
+	left or right sub-tree
+*/

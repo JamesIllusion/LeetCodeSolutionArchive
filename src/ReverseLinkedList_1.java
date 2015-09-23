@@ -21,3 +21,7 @@ public class Solution {
         return reverseList(next, head);
     }
 }
+
+/*
+	Recursively scan the LinkedList with the head connect to a null pointer
+*/

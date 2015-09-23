@@ -29,3 +29,8 @@ public class Solution {
         
     }
 }
+
+/*
+	Two pointer, one goes 1 step each time, the other goes 2 steps. If there is a cycle, they would meet
+	in the end. Or they will go to null.
+*/

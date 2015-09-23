@@ -17,3 +17,8 @@ public class Solution {
         return triangle;
     }
 }
+
+/*
+	Straight forward solution. For each row, the first and the last element must be 1. And each other elements
+	equal to sum of corresponding elements in previous row.
+*/

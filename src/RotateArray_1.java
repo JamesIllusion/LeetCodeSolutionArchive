@@ -20,3 +20,7 @@ public class Solution {
         
     }
 }
+
+/*
+	Cut the input array into 2 parts, roll back the input array, insert the elements
+*/

@@ -18,3 +18,7 @@ public class Solution {
         return root;
 	}
 }
+
+/*
+	Straight forward solution. Recursively change from left to right
+*/

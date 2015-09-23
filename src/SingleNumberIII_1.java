@@ -20,3 +20,8 @@ public class Solution {
         return ans;
     }
 }
+
+/*
+	For all the elements in the array, every first time we see it, put it in the container(HashSet).
+	When it is seen for the second time, remove it from the container. The only one left is what we are looking for
+*/	

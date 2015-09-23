@@ -23,3 +23,7 @@ public class Solution {
         return head;
     }
 }
+
+/*
+	Simple LinkedList operation, directly go through the LinkedList and when find the target, cut the pointer
+*/

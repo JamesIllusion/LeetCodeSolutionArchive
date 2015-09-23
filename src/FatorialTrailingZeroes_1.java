@@ -10,3 +10,7 @@ public class Solution {
         return zeroCount;
     }
 }
+
+/*
+	Count the occurence number of 5 /25 /125 ...
+*/

@@ -32,3 +32,7 @@ public class Solution {
         
     }
 }
+
+/*
+	MergeSort algorithm using LinkedList
+*/

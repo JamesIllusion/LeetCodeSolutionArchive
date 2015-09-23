@@ -20,3 +20,7 @@ public class Solution {
         return head;
     }
 }
+
+/*
+	If found duplicate, just skip the pointer to next node
+*/

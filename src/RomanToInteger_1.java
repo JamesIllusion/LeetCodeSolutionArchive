@@ -37,3 +37,7 @@ public class Solution {
         return result;
     }
 }
+
+/*
+	Add all Roman character together, then declude those special cases (4,9,40,90,400,900)
+*/

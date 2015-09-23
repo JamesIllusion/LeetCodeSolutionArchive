@@ -19,3 +19,8 @@ public class Solution {
         }
     }
 }
+
+/*
+	Stright forward solution. Going over the given array, if it is 0, then skip; if not, then switch with
+	0 in front of the element.
+*/

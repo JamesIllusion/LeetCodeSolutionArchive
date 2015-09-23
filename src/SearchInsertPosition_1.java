@@ -8,3 +8,7 @@ public class Solution {
         return nums.length;
     }
 }
+
+/*
+	The inserted element is less or equal to the element behind it.
+*/

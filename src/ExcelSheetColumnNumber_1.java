@@ -9,3 +9,7 @@ public class Solution {
         return colNum;
     }
 }
+
+/*
+	Stright forward solution from the question description
+*/

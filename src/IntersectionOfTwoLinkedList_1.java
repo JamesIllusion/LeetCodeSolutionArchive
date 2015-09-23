@@ -32,3 +32,8 @@ public class Solution {
         return currA;
     }
 }
+
+/*
+	Two pointer to start from each head. For each pointer, if it ends on the LinkedList, switch scan from
+	the other head. Once two pointer hit, it is the intersection
+*/

@@ -23,3 +23,7 @@ public class Solution {
         //return false;
     }
 }
+
+/*
+	DFS application solution. Read from root, and for each left or right tree, try to find (sum-root.val)
+*/

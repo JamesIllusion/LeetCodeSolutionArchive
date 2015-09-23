@@ -13,3 +13,7 @@ public class Solution {
         
     }
 }
+
+/*
+	Cut off the pointer and assign the value
+*/

@@ -14,3 +14,8 @@ public class Solution {
         return lastLen;
     }
 }
+
+/*
+	Trim first, to cut off the space at the beginning and end (especially for the end). And check from the end,
+	when pointer hits space, stop.
+*/

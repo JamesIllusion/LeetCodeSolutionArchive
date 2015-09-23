@@ -18,3 +18,8 @@ public class Solution {
         return index;
     }
 }
+
+/*
+	Double pointer to go over the array. 
+	For each element 'm' in the array, try to find if there is another element equals 'target-m'.
+*/

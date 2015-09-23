@@ -29,3 +29,9 @@ public class Solution {
         return result;
     }
 }
+
+/*
+	Sort the input array first. If a number has appeared 3 times, that means i, i+1, i+2 should be same.
+	If not same, then it appears only once.
+	PS. add special case for the single number in the last of the array.
+*/

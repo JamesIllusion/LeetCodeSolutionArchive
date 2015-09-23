@@ -23,3 +23,7 @@ public class Solution {
         return major;
     }
 }
+
+/*
+	Using Hashtable to count number of occurence. And then find the key with the value bigger than n/2
+*/

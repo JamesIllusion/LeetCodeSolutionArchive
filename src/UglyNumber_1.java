@@ -23,3 +23,8 @@ public class Solution {
         return bUgly;
     }
 }
+
+/*
+	Defination: Ugly numbers are positive numbers whose prime factors only include 2, 3, 5
+	Directly calculate based on the defination
+*/

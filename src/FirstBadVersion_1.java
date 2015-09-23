@@ -25,3 +25,7 @@ public class Solution extends VersionControl {
         return badVer;
     }
 }
+
+/*
+	Devide in 2 half and recursively find the point
+*/

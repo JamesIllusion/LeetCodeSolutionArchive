@@ -18,3 +18,8 @@ public class Solution {
         return ContainDup;
     }
 }
+
+/*
+	Using Hashtable, if a element is not seen before, add it new to the table, if it is seen, then plus 
+	the value to the key.
+*/

@@ -14,3 +14,7 @@ public class Solution {
         return true;
     }
 }
+
+/*
+	Two pointers go from both ends of string. If not same, then input is not palindrome.
+*/

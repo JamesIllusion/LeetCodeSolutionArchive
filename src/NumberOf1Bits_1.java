@@ -11,3 +11,7 @@ public class Solution {
         return digit;
     }
 }
+
+/*
+	Straight forward solution. Right shift the input number 1 bit each time. '&' 1 operation to each bit.
+*/

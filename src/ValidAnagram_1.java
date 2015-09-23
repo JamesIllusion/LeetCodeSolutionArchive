@@ -18,3 +18,8 @@ public class Solution {
         return true;
     }
 }
+
+/*
+	For each word string s, count appear times for every character in this word, record in a map;
+	and then for the other string t, if it is an ANAGRAM to s, it would eliminate the word count map built from s
+*/	

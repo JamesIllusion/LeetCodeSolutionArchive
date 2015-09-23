@@ -20,3 +20,7 @@ public class Solution {
         b = temp;
     }
 }
+
+/*
+	When find a target element, just simply move another element from the array end
+*/
