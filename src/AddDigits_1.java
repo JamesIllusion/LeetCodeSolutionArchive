@@ -1,25 +1,21 @@
 public class Solution {
-    public boolean isUgly(int num) {
-        boolean bUgly=false;
+    public int addDigits(int num) {
+        int result=0;
         
-        if(num==0)
-            bUgly=false;
+        String sTmp = Integer.toString(num);
+        int[] arTmp = new int[sTmp.length()];
         
-        else if(num==1)
-            bUgly=true;
+        for(int i=0; i<sTmp.length(); i++)
+            result+=sTmp.charAt(i)-'0';
         
-        else{
-            for(int i=2; i<6; i++){
-                while(num%i==0)
-                    num/=i;
-            
-                if(num==1)
-                    bUgly=true;
-                else
-                bUgly=false;
-            }
-        }
+        while(result>=10)
+            result-=9;
         
-        return bUgly;
+        return result;
     }
 }
+
+/*
+	Straight forward solution from question. Transit the input int into char and then add back to int.
+	Do the math work to calculate result
+*/
