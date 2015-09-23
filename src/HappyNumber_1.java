@@ -28,4 +28,4 @@ public class Solution {
 /*
 	Calculate as in question description, when the calculation gets to 1 digit, if it is 4 or 7, it is happy
 	number. Or it is not. (from 1 to 10, only 4 and 7 are happy number)
-*/	
+*/

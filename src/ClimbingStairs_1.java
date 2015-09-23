@@ -13,6 +13,7 @@ public class Solution {
 //        while(n>2)
 //            methodCount += climbStairs(n-1) + climbStairs(n-2);
 
+
         int methodCount_two_before = 2;		// at first step
         int methodCount_one_before = 1;		// at second step
         
@@ -20,6 +21,14 @@ public class Solution {
             methodCount = methodCount_two_before + methodCount_one_before;
             methodCount_one_before = methodCount_two_before;
             methodCount_two_before = methodCount;
+
+        int methodCount_one = 2;
+        int methodCount_two = 1;
+        
+        for(int i=3; i<=n; i++){
+            methodCount = methodCount_one + methodCount_two;
+            methodCount_two = methodCount_one;
+            methodCount_one = methodCount;
         }
         
         
