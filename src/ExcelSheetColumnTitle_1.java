@@ -11,7 +11,7 @@ public class Solution {
                     sb.append('Z');
                     n--;
                 }
-    }
+		}
     return sb.reverse().toString();
     }
 }
