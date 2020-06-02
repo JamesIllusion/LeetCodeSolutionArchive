@@ -1,0 +1,5 @@
+# to ignore all file with '~'
+*~
+
+# to ignore all PDF file
+*.pdf
